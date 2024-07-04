@@ -1,0 +1,2 @@
+g++ -c -std=c++20 -fmodules-ts Math.cxx
+g++ -std=c++20 -fmodules-ts main.cpp Math.o -o main
