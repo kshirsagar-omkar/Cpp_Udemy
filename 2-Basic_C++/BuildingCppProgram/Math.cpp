@@ -1,6 +1,7 @@
 module Math;
 
-namespace Math{
+namespace Math
+{
 	int Add(int N, int M)
 	{
 		return N + M;
@@ -13,5 +14,4 @@ namespace Math{
 	}
 
 	int A {7};
-
 }

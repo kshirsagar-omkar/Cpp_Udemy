@@ -2,7 +2,6 @@
 
 import Math;
 
-//using Math;
 
 int main() {
     std::cout << "13 + 15 : " << Math::Add(13, 15) << std::endl;
