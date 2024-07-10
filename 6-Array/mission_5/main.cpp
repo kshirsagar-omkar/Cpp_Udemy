@@ -46,7 +46,7 @@ int main()
 			std::cout << std::endl;
 		}
 		std::cout << std::endl;
-		int ch = -1;
+		intc ch = -1;
 		std::cout << "Enter Choice : ";
 		std::cin >> ch;
 
