@@ -1,2 +1,15 @@
 g++ -c -std=c++20 -fmodules-ts Math.cxx
 g++ -std=c++20 -fmodules-ts main.cpp Math.o -o main
+
+
+
+
+
+
+Seprate Unit
+
+g++ -std=c++20 -fmodules-ts -xc++-system-header iostream
+
+g++ -std=c++20 -fmodules-ts -c mathsInterface.cxx mathsInterface.cpp
+
+g++ -std=c++20 -fmodules-ts  main.cpp mathsInterface.o -o main    
