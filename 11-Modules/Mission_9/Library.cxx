@@ -1,8 +1,11 @@
 export module Library;
-export import <vector>;
-
-export import :Book;
 export import :Member;
+export import :Book;
+
+export import <vector>;
+export import <iostream>;
+
+
 
 export{
 	class LibraryClass
@@ -86,3 +89,7 @@ export{
 		}	
 	};
 }
+
+
+
+

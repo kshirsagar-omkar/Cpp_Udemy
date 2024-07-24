@@ -1,6 +1,7 @@
+import Library;
+
 // import <string>;
 // import <iostream>;
-import Library;
 
 
 int main()

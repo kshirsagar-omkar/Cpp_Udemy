@@ -1,6 +1,5 @@
 export module Library:Member;
-export import <string>;
-export import <iostream>;
+import <string>;
 
 
 export{
