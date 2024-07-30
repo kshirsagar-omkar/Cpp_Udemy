@@ -25,7 +25,7 @@ class Derived : public Base
 	inline static int dcnt{0};
 	public:
 
-		// using Base::Base;
+		using Base::Base;
 
 		Derived()
 		{
